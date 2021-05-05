@@ -20,6 +20,7 @@ This is the first glimpse of the dataset.
 
 After importing the dataset, we visualise it using a pairplot, below is how the visualisation appears.
 
+
 **Pairplot**
 
 ![PairPlot](https://github.com/Rusali28/Decision-Trees--TSF/blob/main/Images/Pairplot.PNG)
@@ -29,19 +30,19 @@ After importing the dataset, we visualise it using a pairplot, below is how the 
 In order to make a classification model, we take the **Species** column as our target. We encode the Species data using LabelEncoder and below are the labels.
 
 
-From the dataset, we have three species of the Iris flower:
+From the dataset, we have three species of the Iris flower, alongwith the labels:
 + IrisIris-setosa   -  0
 + Iris-versicolor  -  1
 + Iris-virginica   -  2
 
-Here is a picture of the final dataset, after encoding the Species column.
+Here is a picture of the final dataset, after encoding the Species column and shuffling the dataset for uniform splitting of train and test data.
 
 ![Final_Data](https://github.com/Rusali28/Decision-Trees--TSF/blob/main/Images/final%20dataset.PNG)
 
 
+Hereafter, we train and test our decision tree and here is the visualization of the final decision tree using Graphviz.
 
-
-
+![Graphviz](https://github.com/Rusali28/Decision-Trees--TSF/blob/main/Images/visual-graphviz.PNG)
 
 
 
