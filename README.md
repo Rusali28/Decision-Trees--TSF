@@ -8,6 +8,30 @@ It is a supervised machine learning algorithm, which can be used for both classi
 The goal of this algorithm is to create a model that predicts the value of a target variable, for which the decision tree uses the tree representation to solve the problem. The leaf node corresponds to a class label and attributes are represented on the internal node of the tree.
 
 Leaf node refers to a node with zero children.
+
 Internal nodes refer to nodes with children.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Guidelines to use the repo:
+- Cloning the Repository: 
+
+        git clone https://github.com/Rusali28/Decision-Trees--TSF.git
+        
+- Entering the directory: 
+
+        cd Decision-Trees--TSF
 
 
