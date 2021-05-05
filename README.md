@@ -11,14 +11,32 @@ Leaf node refers to a node with zero children.
 
 Internal nodes refer to nodes with children.
 
+## DATASET
+This is the first glimpse of the dataset.
+
+![Dataset](https://github.com/Rusali28/Decision-Trees--TSF/blob/main/Images/dataset.PNG)
+
+
 
 After importing the dataset, we visualise it using a pairplot, below is how the visualisation appears.
-![PairPlot](Images/Pairplot.png)
+
+**Pairplot**
+
+![PairPlot](https://github.com/Rusali28/Decision-Trees--TSF/blob/main/Images/Pairplot.PNG)
 
 
 
+In order to make a classification model, we take the **Species** column as our target. We encode the Species data using LabelEncoder and below are the labels.
 
 
+From the dataset, we have three species of the Iris flower:
++ IrisIris-setosa   -  0
++ Iris-versicolor  -  1
++ Iris-virginica   -  2
+
+Here is a picture of the final dataset, after encoding the Species column.
+
+![Final_Data](https://github.com/Rusali28/Decision-Trees--TSF/blob/main/Images/final%20dataset.PNG)
 
 
 
