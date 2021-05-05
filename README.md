@@ -13,6 +13,7 @@ Internal nodes refer to nodes with children.
 
 
 After importing the dataset, we visualise it using a pairplot, below is how the visualisation appears.
+![](/images/pairplot.png
 
 
 
