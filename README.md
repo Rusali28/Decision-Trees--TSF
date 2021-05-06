@@ -25,6 +25,9 @@ After importing the dataset, we visualise it using a pairplot, below is how the 
 
 ![PairPlot](https://github.com/Rusali28/Decision-Trees--TSF/blob/main/Images/Pairplot.PNG)
 
+Pairplots can be very useful to understand all possible relationships between all the features in our dataset. From this above pairplot, we can see that the clusters of Species 'versicolor' and 'virginica' are closely related, whereas 'sertosa' is more distinct.
+
+
 
 
 In order to make a classification model, we take the **Species** column as our target. We encode the Species data using LabelEncoder and below are the labels.
