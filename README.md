@@ -1,5 +1,5 @@
-# Decision-Trees--The Sparks Foundation
-# TASK #6 - RUSALI SAHA
+# Prediction using Decision-Trees--The Sparks Foundation
+## TASK #6 - RUSALI SAHA
 
 This Decision Tree project has been made as part of my Data Science and Business Analytics Internship at The Sparks Foundation (TSF).
 
