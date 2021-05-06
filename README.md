@@ -25,16 +25,33 @@ After importing the dataset, we visualise it using a pairplot, below is how the 
 
 ![PairPlot](https://github.com/Rusali28/Decision-Trees--TSF/blob/main/Images/Pairplot.PNG)
 
-Pairplots can be very useful to understand all possible relationships between all the features in our dataset. From this above pairplot, we can see that the clusters of Species 'versicolor' and 'virginica' are closely related, whereas 'sertosa' is more distinct.
+Pairplots can be very useful to understand all possible relationships between all the features in our dataset. From this above pairplot, we can see that the clusters of Species
+'versicolor' and 'virginica' are closely related, whereas 'sertosa' is more distinct.
 
 
+## We create a few more plots to understand the distribution of data
+## BOXPLOT
+![Boxplot](https://github.com/Rusali28/Decision-Trees--TSF/blob/main/Images/boxplot.PNG)
+
+## BOX_AND_STRIPPLOT
+![boxstrip](https://github.com/Rusali28/Decision-Trees--TSF/blob/main/Images/box_stripplot.PNG)
+
+
+We can plot box plots using a categorical feature against a continuous feature, to understand how our data is distributed over the different features. Here, we have combined a
+stripplot to identify visible number of outliers also.
+
+## JOINTPLOT
+![joint](https://github.com/Rusali28/Decision-Trees--TSF/blob/main/Images/hex_jointplot.PNG)
+
+From the above jointplot, we can find the major areas of concentration of our data points, the darker hexagons refer to higher concentration, lighter hexagons refer to lesser
+concentration.
 
 
 In order to make a classification model, we take the **Species** column as our target. We encode the Species data using LabelEncoder and below are the labels.
 
 
 From the dataset, we have three species of the Iris flower, alongwith the labels:
-+ IrisIris-setosa   -  0
++ Iris-setosa      -  0
 + Iris-versicolor  -  1
 + Iris-virginica   -  2
 
