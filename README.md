@@ -21,8 +21,7 @@ This is the first glimpse of the dataset.
 After importing the dataset, we visualise it using a pairplot, below is how the visualisation appears.
 
 
-**Pairplot**
-
+## Pairplot
 ![PairPlot](https://github.com/Rusali28/Decision-Trees--TSF/blob/main/Images/Pairplot.PNG)
 
 Pairplots can be very useful to understand all possible relationships between all the features in our dataset. From this above pairplot, we can see that the clusters of Species
